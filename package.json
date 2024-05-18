@@ -1,0 +1,15 @@
+{
+  "name": "omp-selector",
+  "version": "1.0.0",
+  "description": "A tool for quickly switching Oh-My-Posh themes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "omp",
+    "oh-my-posh"
+  ],
+  "author": "DuckySmacky",
+  "license": "ISC"
+}
