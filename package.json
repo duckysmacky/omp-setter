@@ -11,5 +11,8 @@
     "oh-my-posh"
   ],
   "author": "DuckySmacky",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "seltheme": "./index.js"
+  }
 }
