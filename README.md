@@ -5,7 +5,7 @@ A tool for quickly switching Oh-My-Posh themes for Powershell. Basically just a 
 ## Install
 
 ```bash
-npm install omp-setter
+npm install -g omp-setter
 ```
 
 ## Usage
