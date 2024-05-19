@@ -1,7 +1,7 @@
 {
-  "name": "omp-selector",
+  "name": "omp-setter",
   "version": "1.0.0",
-  "description": "A tool for quickly switching Oh-My-Posh themes",
+  "description": "A tool for quickly switching Oh-My-Posh themes for Powershell",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,6 @@
   "author": "DuckySmacky",
   "license": "ISC",
   "bin": {
-    "seltheme": "./index.js"
+    "ompset": "index.js"
   }
 }
