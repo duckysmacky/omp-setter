@@ -1,6 +1,6 @@
 {
   "name": "omp-setter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool for quickly switching Oh-My-Posh themes for Powershell",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/duckysmacky/omp-setter.git"
+    "url": "git+https://github.com/duckysmacky/omp-setter.git"
   }
 }
