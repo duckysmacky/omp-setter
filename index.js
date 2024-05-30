@@ -28,7 +28,7 @@ async function setTheme(theme) {
     var path = await getProfile();
     var profile = fs.readFileSync(path, "utf8");
 
-    profile = profile.replace(/themes\\.*.omp/, `themes\\${theme}.omp`);
+    profile = profile.replace(/[\\\/].*\.omp\.json/, `/${theme}.omp.json`);
 
     fs.writeFileSync(path, profile);
 
@@ -40,7 +40,7 @@ var theme = process.argv[2];
 
 if (!theme) {
     console.error("Error: theme not specified!");
-    console.log("Usage: omptheme <theme name>");
+    console.log("Usage: ompset <theme name>");
     process.exit(1);
 }
 
